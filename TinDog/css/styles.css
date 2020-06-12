@@ -1,0 +1,166 @@
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* .top-container{
+    height: 40%;
+    margin-bottom: 350px;
+} */
+
+.top-container {
+    padding-bottom: 7%;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light"
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 0;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.download-button {
+    margin: 5% 5% 0 0;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    /* margin-bottom:  */
+    position: absolute;
+    /* z-index: -1; */
+    margin-left: 10%;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.sec2 {
+    text-align: center;
+    line-height: 2;
+    /* padding: 8%; */
+}
+
+.sec2icon {
+    color: #ef8172;
+}
+
+.sec2icon:hover {
+    color: #ff4c68;
+}
+
+p {
+    padding: 0 20%;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.h2test {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimage {
+    width: 10%;
+    border-radius: 200%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.card-body {
+    text-align: center;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pri-col {
+    padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+    #titleh1 {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+        margin-top: 40px;
+    }
+}
+
+.bottom-container {
+    background-color: #ff4c68;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    text-align: center;
+}
+
+#footer {
+    padding-top: 7%;
+    text-align: center;
+}
+
+.footer-icon {
+    margin: 0 3% 2%;
+}
+
+.foot,
+footer p {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
