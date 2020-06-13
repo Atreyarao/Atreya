@@ -552,7 +552,42 @@ h4 {
         margin-top: 140px;
     }
 }
+@media (max-width:1300px) {
+    .pages {
+        height: 118vh;
+    }
+    .education {
+        margin-top: 390px;
+    }
+    .huge-card .p {
+        font-size: 17px;
+    }
+    .flip-card {
+        height: 360px;
+    }
+}
 
+@media screen and (max-width:1024px),
+screen and (max-height:600px) {
+    .top {
+        margin-top: -20px;
+    }
+    .me img {
+        height: 30vh;
+    }
+    .timeline {
+        padding-top: 70px;
+    }
+    #edu {
+        height: 120vh;
+    }
+    .background-overlay .flex {
+        flex-direction: row;
+    }
+    .skills {
+        height: 130vh !important;
+    }
+}
 
 /*--------------------------------------------------------------------------Skills---------------------------------------------------------------------------------------------*/
 
