@@ -427,7 +427,7 @@ h4 {
 /*-----------------------------------------------------------------------------------------------Education------------------------------------------------------------------------------*/
 
 .education {
-    background-color: #474E5D;
+    /* background-color: #474E5D; */
     width: 100%;
     height: 100vh;
 }
@@ -448,6 +448,7 @@ h4 {
     bottom: 0;
     left: 50%;
     margin-left: -3px;
+    background-color: black;
 }
 
 .time-container {
@@ -476,6 +477,7 @@ h4 {
     top: 15px;
     border-radius: 50%;
     z-index: 1;
+   
 }
 
 .left {
@@ -497,6 +499,7 @@ h4 {
     border: medium solid white;
     border-width: 10px 0 10px 10px;
     border-color: transparent transparent transparent white;
+   
 }
 
 .right::before {
@@ -510,17 +513,21 @@ h4 {
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
+   
 }
 
 .right::after {
     left: -16px;
+  
 }
 
 .content {
     padding: 20px 30px;
-    background-color: white;
+    background-color:#fff8cd;
+    color: #b30000;
     position: relative;
     border-radius: 6px;
+    /* background-color:; */
 }
 
 @media screen and (max-width: 600px) {
@@ -803,7 +810,7 @@ screen and (max-height:600px) {
 
 /*-----------------------------------------------------------------------------------Experience----------------------------------------------------------------------------------------*/
 
-.exp {
+/* .exp {
     background-image: url(../images/expe.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -815,9 +822,55 @@ screen and (max-height:600px) {
 .exp .flex {
     align-items: center;
     height: 50vh;
+} */
+
+.experience{
+    width: 100%;
+    height: 70vh;
+   /* background-color: #fbfafc; */
+    text-align: center;
+
 }
+@keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 50px;
+    }
+  }
+.wrap-left-right{
+    display:flex;
+    height: 100%;
 
-
+}
+.exp-top{
+    position: absolute;
+    top: 5%;
+    
+    text-align: center;   
+}
+.exp-center{
+    position: absolute;
+    top: 15%;
+    padding: 70px;
+    text-align: center;
+    font-size: large;
+}
+.exp-img-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: MoveUpDown 10s linear infinite;
+}
+.exp-left,.exp-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*---------------------------------------------------------------------------------FlipW3school-------------------------------------------------------------------------------------*/
 
 .flip-card {
